@@ -35,17 +35,17 @@ const Register = () => {
         <form onSubmit={handleSubmit}>
             <div className="mb-4">
                 <label htmlFor="username" className='block text-gray-700'>Username</label>
-                <input type="text" placeholder='Enter Username' className='w-full px-3 py-2 border'
+                <input type="text" placeholder='Enter Username' className='w-full px-3 py-2 border text-black'
                 name="username" onChange={handleChange} />
             </div>
             <div className="mb-4">
                 <label htmlFor="email" className='block text-gray-700'>Email</label>
-                <input type="email" placeholder='Enter Email' className='w-full px-3 py-2 border'
+                <input type="email" placeholder='Enter Email' className='w-full px-3 py-2 border text-black'
                 name="email" onChange={handleChange} />
             </div>
             <div className="mb-4">
                 <label htmlFor="password" className='block text-gray-700'>Password</label>
-                <input type="password" placeholder='Enter Password' className='w-full px-3 py-2 border'
+                <input type="password" placeholder='Enter Password' className='w-full px-3 py-2 border text-black'
                 name="password" onChange={handleChange} />
             </div>
             <button className="w-full bg-green-600 text-white py-2 ">Submit</button>
